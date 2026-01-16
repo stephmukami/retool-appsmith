@@ -1,0 +1,1 @@
+SELECT * FROM public.customerpool LIMIT 10;

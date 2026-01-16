@@ -1,0 +1,59 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 104,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "l7xc3lte2e",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Highest Level of Education Completed",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 104,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 97,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 9.77734375,
+  "parentId": "3gfma4ho2a",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"Primary School\",\n    \"code\": \"PRIMARYSCHL\"\n  },\n  {\n    \"name\": \"Secondary School\",\n    \"code\": \"SECONDARYSCHL\"\n  },\n  {\n    \"name\": \"Diploma\",\n    \"code\": \"DIPLOMA\"\n  },\n\t  {\n    \"name\": \"Degree\",\n    \"code\": \"DEGREE\"\n  }\n]",
+  "topRow": 97,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "uzclsctuwl",
+  "widgetName": "Select6"
+}

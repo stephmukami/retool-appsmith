@@ -1,0 +1,67 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "defaultOptionValue": "RAWPOOL",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "e0ggp95e25",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 12,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 20,
+  "mobileRightColumn": 40,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onOptionChange": "",
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 9.77734375,
+  "parentId": "p3mg1tm86s",
+  "parentRowSpace": 10,
+  "placeholderText": "Select A Page",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 42,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"Raw Pool\",\n    \"code\": \"RAWPOOL\"\n  },\n  {\n    \"name\": \"Invitation\",\n    \"code\": \"INVITATION\"\n  }\n\t,\n\t  {\n    \"name\": \"Pool Completion\",\n    \"code\": \"POOLCOMPLETION\"\n  },\n  {\n    \"name\": \"All Pool Customers\",\n    \"code\": \"ALLPOOL\"\n  }\n\t\n\n]",
+  "topRow": 0,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "d4eena9k71",
+  "widgetName": "Select1"
+}
