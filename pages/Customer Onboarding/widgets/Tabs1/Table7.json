@@ -55,7 +55,15 @@
     "total_count"
   ],
   "columnUpdatedAt": 1768576632983,
-  "columnWidthMap": {},
+  "columnWidthMap": {
+    "completed_highschool": 207,
+    "driver_experience_duration": 238,
+    "have_dl": 197,
+    "have_driver_experience": 213,
+    "have_uber_account": 193,
+    "how_did_you_hear_of_us": 222,
+    "no_of_children": 190
+  },
   "customIsLoading": false,
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
@@ -837,7 +845,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
-  "tableData": "{{get_customer_pool.data.filter(customer => customer.invited === false)}}",
+  "tableData": "{{get_customer_pool.data.filter(customer => customer.invited === false && customer.shortlist_reject===\"Shortlist\")}}",
   "textSize": "0.875rem",
   "topRow": 0,
   "totalRecordsCount": 0,
