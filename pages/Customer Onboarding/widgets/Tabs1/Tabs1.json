@@ -691,6 +691,9 @@
     },
     {
       "key": "tabsObj.tabtx69g58id7.isVisible"
+    },
+    {
+      "key": "onTabSelected"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -708,6 +711,7 @@
   "mobileRightColumn": 25,
   "mobileTopRow": 14,
   "needsErrorInfo": false,
+  "onTabSelected": "{{}}",
   "originalBottomRow": 110,
   "originalTopRow": 14,
   "parentColumnSpace": 10.25,
