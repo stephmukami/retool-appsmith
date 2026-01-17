@@ -15,6 +15,16 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -27,6 +37,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
+  "onClick": "{{\nreject_customer.run(\n\t() => showAlert('Customer rejected!', 'success'),\n\t() => showAlert('Failed to reject', 'error')\n)\n}}",
   "parentId": "jvzj72vgk7",
   "placement": "CENTER",
   "recaptchaType": "V3",

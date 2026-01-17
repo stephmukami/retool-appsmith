@@ -15,6 +15,16 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -27,6 +37,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
+  "onClick": "{{\n  shortlist_customer.run(\n    () => showAlert('Customer shortlisted!', 'success'),\n    () => showAlert('Failed to shortlist', 'error')\n  )\n}}",
   "originalBottomRow": 22,
   "originalTopRow": 18,
   "parentId": "gccd05tmc7",

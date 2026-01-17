@@ -1,0 +1,7 @@
+{{
+{
+	 p_value: "Reject",
+    p_customer_id: Table1.triggeredRow.id
+}
+   
+}}
