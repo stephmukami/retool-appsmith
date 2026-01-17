@@ -1,5 +1,7 @@
 {
-  "allowedFileTypes": [],
+  "allowedFileTypes": [
+    "image/*"
+  ],
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 149,
@@ -33,6 +35,8 @@
   "mobileRightColumn": 14,
   "mobileTopRow": 145,
   "needsErrorInfo": false,
+  "originalBottomRow": 149,
+  "originalTopRow": 145,
   "parentColumnSpace": 9.77734375,
   "parentId": "3gfma4ho2a",
   "parentRowSpace": 10,

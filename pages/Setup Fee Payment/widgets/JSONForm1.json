@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 168,
+  "bottomRow": 154,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
     "ARRAY": {
@@ -258,24 +258,6 @@
       "key": "schema.__root_schema__.children.driver_experience_duration.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.proceed_with_lease.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.proceed_with_lease.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.proceed_with_lease.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.reason_for_not_proceeding.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.reason_for_not_proceeding.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.reason_for_not_proceeding.borderRadius"
-    },
-    {
       "key": "schema.__root_schema__.defaultValue"
     },
     {
@@ -315,7 +297,7 @@
   "mobileTopRow": 10,
   "needsErrorInfo": false,
   "onSubmit": "{{Insert_public_customerpool1.run(() => {\n            showAlert(\"undefined\");\n            \n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
-  "originalBottomRow": 51,
+  "originalBottomRow": 168,
   "originalTopRow": 10,
   "parentColumnSpace": 12.421875,
   "parentId": "0",
@@ -695,50 +677,6 @@
           "position": 3,
           "sourceData": ""
         },
-        "proceed_with_lease": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-          "accessor": "proceed_with_lease",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-          "boxShadow": "none",
-          "children": {},
-          "dataType": "string",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.proceed_with_lease))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
-          "identifier": "proceed_with_lease",
-          "isCustomField": false,
-          "isDisabled": false,
-          "isRequired": false,
-          "isSpellCheck": false,
-          "isVisible": true,
-          "label": "Proceed With Lease",
-          "labelTextSize": "0.875rem",
-          "originalIdentifier": "proceed_with_lease",
-          "position": 17,
-          "sourceData": ""
-        },
-        "reason_for_not_proceeding": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-          "accessor": "reason_for_not_proceeding",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-          "boxShadow": "none",
-          "children": {},
-          "dataType": "string",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.reason_for_not_proceeding))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
-          "identifier": "reason_for_not_proceeding",
-          "isCustomField": false,
-          "isDisabled": false,
-          "isRequired": false,
-          "isSpellCheck": false,
-          "isVisible": true,
-          "label": "Reason For Not Proceeding",
-          "labelTextSize": "0.875rem",
-          "originalIdentifier": "reason_for_not_proceeding",
-          "position": 18,
-          "sourceData": ""
-        },
         "shortlist_reject": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
           "accessor": "shortlist_reject",
@@ -799,27 +737,7 @@
   },
   "scrollContents": true,
   "showReset": true,
-  "sourceData": {
-    "age": 0,
-    "attended": "",
-    "completed_highschool": "",
-    "created_at": "2026-01-16T14:40:01.011+03:00",
-    "driver_experience_duration": "",
-    "email": "",
-    "full_name": "",
-    "have_dl": "",
-    "have_driver_experience": "",
-    "have_uber_account": "",
-    "how_did_you_hear_of_us": "",
-    "invited": "",
-    "marriage_status": "",
-    "mean_grade": "",
-    "no_of_children": "",
-    "phone_number": "",
-    "proceed_with_lease": "",
-    "reason_for_not_proceeding": "",
-    "shortlist_reject": ""
-  },
+  "sourceData": "{\n  \"created_at\": \"2026-01-16T14:40:01.011+03:00\",\n  \"full_name\": \"\",\n  \"email\": \"\",\n  \"phone_number\": \"\",\n  \"age\": 0,\n  \"have_uber_account\": \"\",\n  \"have_dl\": \"\",\n  \"have_driver_experience\": \"\",\n  \"completed_highschool\": \"\",\n  \"no_of_children\": \"\",\n  \"how_did_you_hear_of_us\": \"\",\n  \"marriage_status\": \"\",\n  \"shortlist_reject\": \"\",\n  \"invited\": \"\",\n  \"attended\": \"\",\n  \"mean_grade\": \"\",\n  \"driver_experience_duration\": \"\"\n}",
   "submitButtonLabel": "Submit",
   "submitButtonStyles": {
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
