@@ -11,10 +11,17 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "isDisabled": false,
   "isFilterable": true,
@@ -36,8 +43,8 @@
   "mobileRightColumn": 22,
   "mobileTopRow": 6,
   "needsErrorInfo": false,
-  "optionLabel": "name",
-  "optionValue": "code",
+  "optionLabel": "full_name",
+  "optionValue": "email",
   "originalBottomRow": 13,
   "originalTopRow": 6,
   "parentColumnSpace": 9.77734375,
@@ -48,7 +55,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"name\": \"Blue\",\n    \"code\": \"BLUE\"\n  },\n  {\n    \"name\": \"Green\",\n    \"code\": \"GREEN\"\n  },\n  {\n    \"name\": \"Red\",\n    \"code\": \"RED\"\n  }\n]",
+  "sourceData": "{{get_customer_pool.data}}",
   "topRow": 6,
   "type": "SELECT_WIDGET",
   "version": 1,
