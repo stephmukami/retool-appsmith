@@ -34,6 +34,7 @@
   "columnOrder": [
     "id",
     "full_name",
+    "attended",
     "customColumn1",
     "customColumn2",
     "customColumn3",
@@ -50,15 +51,15 @@
     "no_of_children",
     "how_did_you_hear_of_us",
     "invited",
-    "attended",
     "reason_for_not_proceeding",
     "proceed_with_lease",
     "shortlist_reject",
     "created_at",
     "total_count"
   ],
-  "columnUpdatedAt": 1768628227644,
+  "columnUpdatedAt": 1768660907348,
   "columnWidthMap": {
+    "attended": 209,
     "completed_highschool": 232,
     "customColumn1": 227,
     "customColumn2": 195,
@@ -190,6 +191,9 @@
     },
     {
       "key": "primaryColumns.customColumn2.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn3.onClick"
     }
   ],
   "enableClientSideSearch": true,
@@ -268,8 +272,8 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": false,
-      "label": "Attended",
+      "isVisible": true,
+      "label": "Attendance Status",
       "notation": "standard",
       "originalId": "attended",
       "sticky": "",
@@ -449,6 +453,7 @@
       "label": "Missed – Reschedule",
       "labelColor": "#FFFFFF",
       "notation": "standard",
+      "onClick": "{{showModal(Modal6.name);}}",
       "originalId": "customColumn3",
       "sticky": "",
       "textSize": "0.875rem",

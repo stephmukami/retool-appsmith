@@ -15,6 +15,16 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -27,6 +37,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
+  "onClick": "{{\nupdate_customer_attendance\n  .run({ attendance: \"Attended\" })  \n  .then(() => {\n    showAlert(\"Attendance updated successfully\", \"success\");\n  })\n  .catch((err) => {\n    showAlert(\"Failed to update attendance\", \"error\");\n    console.error(err);\n  });\n}}\n",
   "originalBottomRow": 22,
   "originalTopRow": 18,
   "parentId": "xivjfamzqi",
