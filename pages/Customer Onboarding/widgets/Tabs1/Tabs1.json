@@ -505,6 +505,51 @@
       "version": 1,
       "widgetId": "f3j813l9ce",
       "widgetName": "Canvas21"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 920,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "88nbm2k4n9",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 960,
+      "minWidth": 450,
+      "mobileBottomRow": 961,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 656,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "ic7kbdywfw",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 656,
+      "tabId": "tabf33274zvrp",
+      "tabName": "Pool Completion",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "n8xy2r27rl",
+      "widgetName": "Canvas22"
     }
   ],
   "defaultTab": "All Raw Pool",
@@ -550,6 +595,9 @@
     },
     {
       "key": "tabsObj.taboo09792bdf.isVisible"
+    },
+    {
+      "key": "tabsObj.tabf33274zvrp.isVisible"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -589,6 +637,9 @@
     },
     {
       "key": "tabsObj.taboo09792bdf.isVisible"
+    },
+    {
+      "key": "tabsObj.tabf33274zvrp.isVisible"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -658,6 +709,13 @@
       "isVisible": "{{Select1.selectedOptionValue ===\"INVITATION\"}}\n",
       "label": "Invited",
       "widgetId": "nt2wnp1xz3"
+    },
+    "tabf33274zvrp": {
+      "id": "tabf33274zvrp",
+      "index": 11,
+      "isVisible": "{{Select1.selectedOptionValue ===\"POOLCOMPLETION\"}}",
+      "label": "Pool Completion",
+      "widgetId": "n8xy2r27rl"
     },
     "taboo09792bdf": {
       "id": "taboo09792bdf",
