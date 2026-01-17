@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 17,
   "boxShadow": "none",
   "defaultImage": "{{currentItem.photo}}",
   "dynamicBindingPathList": [
@@ -35,7 +35,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "rightColumn": 14,
-  "topRow": 0,
+  "topRow": 5,
   "type": "IMAGE_WIDGET",
   "version": 1,
   "widgetId": "85te4utqwq",
