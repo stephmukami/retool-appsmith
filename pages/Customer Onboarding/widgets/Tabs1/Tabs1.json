@@ -550,6 +550,51 @@
       "version": 1,
       "widgetId": "n8xy2r27rl",
       "widgetName": "Canvas22"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 920,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "dx3i524g8q",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 960,
+      "minWidth": 450,
+      "mobileBottomRow": 961,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 656,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "ic7kbdywfw",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 656,
+      "tabId": "tabtx69g58id7",
+      "tabName": "Lease Status",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "1pxi5dt48v",
+      "widgetName": "Canvas27"
     }
   ],
   "defaultTab": "All Raw Pool",
@@ -598,6 +643,9 @@
     },
     {
       "key": "tabsObj.tabf33274zvrp.isVisible"
+    },
+    {
+      "key": "tabsObj.tabtx69g58id7.isVisible"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -640,6 +688,9 @@
     },
     {
       "key": "tabsObj.tabf33274zvrp.isVisible"
+    },
+    {
+      "key": "tabsObj.tabtx69g58id7.isVisible"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -740,6 +791,13 @@
       "isVisible": "{{Select1.selectedOptionValue ===\"ALLPOOL\"}}",
       "label": "Proceeded",
       "widgetId": "ci500yxtk2"
+    },
+    "tabtx69g58id7": {
+      "id": "tabtx69g58id7",
+      "index": 12,
+      "isVisible": "{{Select1.selectedOptionValue ===\"LEASE\"}}",
+      "label": "Lease Status",
+      "widgetId": "1pxi5dt48v"
     },
     "taby2t54c4wnk": {
       "id": "taby2t54c4wnk",
