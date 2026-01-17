@@ -72,7 +72,7 @@
     ],
     "name": "Find_movies1",
     "pageId": "Customer Onboarding",
-    "runBehaviour": "AUTOMATIC",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -58,9 +58,10 @@
   "columnWidthMap": {
     "completed_highschool": 207,
     "customColumn1": 186,
-    "have_dl": 205,
+    "email": 216,
+    "have_dl": 226,
     "have_driver_experience": 213,
-    "have_uber_account": 189,
+    "have_uber_account": 295,
     "how_did_you_hear_of_us": 235
   },
   "customIsLoading": false,
