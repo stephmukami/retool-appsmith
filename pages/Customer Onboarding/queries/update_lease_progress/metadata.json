@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{{\n{\n\t proceed_with_lease: this.params.proceed_with_lease,\n   p_customer_id: Table15.triggeredRow.id\n}\n   \n}}",
+      "body": "{\n  \"p_customer_id\": \"{{Table15.triggeredRow.id}}\",\n  \"proceed_with_lease\": {{this.params.proceed_with_lease}}\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

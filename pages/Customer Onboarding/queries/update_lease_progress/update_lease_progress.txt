@@ -1,7 +1,4 @@
-{{
 {
-	 proceed_with_lease: this.params.proceed_with_lease,
-   p_customer_id: Table15.triggeredRow.id
+  "p_customer_id": "{{Table15.triggeredRow.id}}",
+  "proceed_with_lease": {{this.params.proceed_with_lease}}
 }
-   
-}}
