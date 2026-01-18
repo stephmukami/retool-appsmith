@@ -2,36 +2,21 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 17,
+  "bottomRow": 25,
   "boxShadow": "none",
-  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( get_registered_customers.data[0].firstname))(Select1.options, Select1.serverSideFiltering) }}",
+  "defaultOptionValue": "ID",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "sourceData"
-    },
-    {
-      "key": "optionLabel"
-    },
-    {
-      "key": "defaultOptionValue"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
-    },
-    {
-      "key": "optionLabel"
-    },
-    {
-      "key": "optionValue"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -40,10 +25,10 @@
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "tq21xhsdzh",
+  "key": "vfjdjma8zx",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Select A Customer",
+  "labelText": "Validation Section",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 0,
@@ -51,13 +36,13 @@
   "minDynamicHeight": 4,
   "minWidth": 450,
   "mobileBottomRow": 17,
-  "mobileLeftColumn": 0,
-  "mobileRightColumn": 20,
+  "mobileLeftColumn": 35,
+  "mobileRightColumn": 55,
   "mobileTopRow": 10,
   "needsErrorInfo": false,
-  "optionLabel": "{{Select1.sourceData.map((item) => (`${item.firstname} ${item.lastname}`))}}",
-  "optionValue": "customerid",
-  "parentColumnSpace": 10.25,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 12.109375,
   "parentId": "0",
   "parentRowSpace": 10,
   "placeholderText": "Select option",
@@ -65,10 +50,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "serverSideFiltering": false,
-  "sourceData": "{{get_registered_customers.data}}",
-  "topRow": 10,
+  "sourceData": "[\n  {\n    \"name\": \"ID Verification\",\n    \"code\": \"ID\"\n  },\n  {\n    \"name\": \"Next of Kin\",\n    \"code\": \"NEXTOFKIN\"\n  },\n  {\n    \"name\": \"DL Verification\",\n    \"code\": \"DL\"\n  },\n\t {\n    \"name\": \"KRA Pin\",\n    \"code\": \"KRA\"\n  },\n\t {\n    \"name\": \"Uber Profile\",\n    \"code\": \"UBER\"\n  },\n\t {\n    \"name\": \"Police Clearance\",\n    \"code\": \"PCC\"\n  },\n\t {\n    \"name\": \"Sacco\",\n    \"code\": \"SACCO\"\n  }\n]",
+  "topRow": 18,
   "type": "SELECT_WIDGET",
   "version": 1,
-  "widgetId": "9alavwyop6",
-  "widgetName": "Select1"
+  "widgetId": "jodw05v8zr",
+  "widgetName": "Select2"
 }
