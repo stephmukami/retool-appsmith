@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 73,
   "boxShadow": "none",
-  "defaultOptionValue": "KENYA",
+  "defaultOptionValue": "KE",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -52,7 +52,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 18,
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"name\": \"Kenya\",\n    \"code\": \"KENYA\"\n  },\n  {\n    \"name\": \"Uganda\",\n    \"code\": \"UGANDA\"\n  },\n  {\n    \"name\": \"South Africa\",\n    \"code\": \"SOUTHAFRICA\"\n  },\n\t {\n    \"name\": \"Ghana\",\n    \"code\": \"GHANA\"\n  },\n\t {\n    \"name\": \"Tanzania\",\n    \"code\": \"TZ\"\n  }\n]",
+  "sourceData": "[\n  {\n    \"name\": \"Kenya\",\n    \"code\": \"KE\"\n  },\n  {\n    \"name\": \"Uganda\",\n    \"code\": \"UG\"\n  },\n  {\n    \"name\": \"South Africa\",\n    \"code\": \"SA\"\n  },\n\t {\n    \"name\": \"Ghana\",\n    \"code\": \"GH\"\n  },\n\t {\n    \"name\": \"Tanzania\",\n    \"code\": \"TZ\"\n  }\n]",
   "topRow": 66,
   "type": "SELECT_WIDGET",
   "version": 1,
