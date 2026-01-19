@@ -11,7 +11,7 @@
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 710,
+      "bottomRow": 800,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -57,7 +57,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 710,
+      "bottomRow": 800,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -103,7 +103,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 710,
+      "bottomRow": 800,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -148,7 +148,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 760,
+      "bottomRow": 800,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -193,7 +193,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 710,
+      "bottomRow": 800,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -238,7 +238,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 710,
+      "bottomRow": 800,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -373,7 +373,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 710,
+      "bottomRow": 800,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -418,7 +418,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 710,
+      "bottomRow": 800,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -463,7 +463,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 710,
+      "bottomRow": 800,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -508,7 +508,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 710,
+      "bottomRow": 800,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -553,7 +553,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 710,
+      "bottomRow": 800,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -609,19 +609,7 @@
       "key": "boxShadow"
     },
     {
-      "key": "tabsObj.tab1.isVisible"
-    },
-    {
       "key": "tabsObj.taby3s41rnf33.isVisible"
-    },
-    {
-      "key": "tabsObj.tab2.isVisible"
-    },
-    {
-      "key": "tabsObj.taby2t54c4wnk.isVisible"
-    },
-    {
-      "key": "tabsObj.tabylfo5mly8r.isVisible"
     },
     {
       "key": "tabsObj.tab6xqb8d8hff.isVisible"
@@ -727,7 +715,7 @@
       "id": "tab1",
       "index": 0,
       "isDuplicateLabel": false,
-      "isVisible": "{{Select1.selectedOptionValue ===\"RAWPOOL\"}}",
+      "isVisible": "true",
       "label": "All Raw Pool",
       "positioning": "vertical",
       "widgetId": "1adn1xuvmt"
@@ -736,7 +724,7 @@
       "id": "tab2",
       "index": 1,
       "isDuplicateLabel": false,
-      "isVisible": "{{Select1.selectedOptionValue ===\"RAWPOOL\"}}\n",
+      "isVisible": "true",
       "label": "Highschool",
       "positioning": "vertical",
       "widgetId": "9tjbth52za"
@@ -807,7 +795,7 @@
       "id": "taby2t54c4wnk",
       "index": 2,
       "isDuplicateLabel": false,
-      "isVisible": "{{Select1.selectedOptionValue ===\"RAWPOOL\"}}",
+      "isVisible": "true",
       "label": "Married/Kids",
       "widgetId": "midneoawdo"
     },
@@ -823,12 +811,12 @@
       "id": "tabylfo5mly8r",
       "index": 3,
       "isDuplicateLabel": false,
-      "isVisible": "{{Select1.selectedOptionValue ===\"RAWPOOL\"}}",
+      "isVisible": "true",
       "label": "Grades A/B/C/D",
       "widgetId": "cd05cteozx"
     }
   },
-  "topRow": 16,
+  "topRow": 7,
   "topRowBeforeCollapse": 14,
   "type": "TABS_WIDGET",
   "version": 3,
