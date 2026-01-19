@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  public.customermaster
+WHERE
+  "firstname" ilike '%{{Table5.searchText}}%'
+ORDER BY
+  "{{Table5.sortOrder.column || 'id'}}" {{Table5.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table5.pageSize}}
+OFFSET
+  {{Table5.pageOffset}}

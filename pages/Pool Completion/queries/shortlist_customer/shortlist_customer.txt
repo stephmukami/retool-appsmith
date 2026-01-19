@@ -1,0 +1,7 @@
+{{
+{
+	 p_value: "Shortlist",
+    p_customer_id: Table1.triggeredRow.id
+}
+   
+}}

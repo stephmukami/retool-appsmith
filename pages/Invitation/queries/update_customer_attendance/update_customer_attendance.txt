@@ -1,0 +1,7 @@
+{{
+{
+	 p_attendance: this.params.attendance,
+    p_customer_id: Table10.triggeredRow.id
+}
+   
+}}

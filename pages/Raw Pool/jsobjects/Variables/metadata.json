@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6964eb640fc5096caf114f37_c24ff65e-9ad7-4b59-803f-e30bd2ec7faf",
+  "id": "Raw Pool_Variables",
+  "unpublishedCollection": {
+    "name": "Variables",
+    "pageId": "Raw Pool",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "pageName",
+        "value": "_.capitalize(appsmith.URL.pathname.replace(\"/edit\").split(\"/\")[3].split(\"-\")[0])"
+      }
+    ]
+  }
+}

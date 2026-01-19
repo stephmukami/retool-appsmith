@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6964eb640fc5096caf114f37_7ab311d2-4f2a-4595-abe5-d65ded972744",
+  "id": "Pool Completion_Variables",
+  "unpublishedCollection": {
+    "name": "Variables",
+    "pageId": "Pool Completion",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "pageName",
+        "value": "_.capitalize(appsmith.URL.pathname.replace(\"/edit\").split(\"/\")[3].split(\"-\")[0])"
+      }
+    ]
+  }
+}

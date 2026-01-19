@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6964eb640fc5096caf114f37_010ac84d-5d2b-45b8-b551-48cb3322a8fe",
+  "id": "All Pool Customers_Variables",
+  "unpublishedCollection": {
+    "name": "Variables",
+    "pageId": "All Pool Customers",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "pageName",
+        "value": "_.capitalize(appsmith.URL.pathname.replace(\"/edit\").split(\"/\")[3].split(\"-\")[0])"
+      }
+    ]
+  }
+}

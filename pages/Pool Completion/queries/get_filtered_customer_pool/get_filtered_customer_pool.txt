@@ -1,0 +1,5 @@
+{
+  "payload": {
+    "filter_value": this.params.filter_value
+  }
+}

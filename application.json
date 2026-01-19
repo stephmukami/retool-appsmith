@@ -14,7 +14,7 @@
       "navStyle": "sidebar",
       "orientation": "side",
       "position": "static",
-      "showNavbar": true,
+      "showNavbar": false,
       "showSignIn": true
     },
     "themeSetting": {
@@ -30,7 +30,7 @@
   "icon": "rupee",
   "pages": [
     {
-      "id": "Customer Onboarding",
+      "id": "Raw Pool",
       "isDefault": true
     },
     {
@@ -56,6 +56,18 @@
     {
       "id": "Page1",
       "isDefault": false
+    },
+    {
+      "id": "Invitation",
+      "isDefault": false
+    },
+    {
+      "id": "Pool Completion",
+      "isDefault": false
+    },
+    {
+      "id": "All Pool Customers",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
@@ -72,7 +84,7 @@
       "navStyle": "sidebar",
       "orientation": "side",
       "position": "static",
-      "showNavbar": true,
+      "showNavbar": false,
       "showSignIn": true
     },
     "themeSetting": {

@@ -1,0 +1,7 @@
+{{
+{
+	 p_invite: true,
+    p_customer_id: Table9.triggeredRow.id
+}
+   
+}}
