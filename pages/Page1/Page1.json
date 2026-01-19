@@ -1,23 +1,23 @@
 {
-  "gitSyncId": "6964eb640fc5096caf114f37_e53a6cc4-03d9-4b31-bda6-eb65c217876d",
+  "gitSyncId": "6964eb640fc5096caf114f37_d66068a4-9c2d-4f9e-9e83-848f45d7effc",
   "unpublishedPage": {
-    "customSlug": "",
+    "customSlug": "http161704018appretool-rebuildpage1-696df334e0839967d6b2b28b",
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 1100,
+          "bottomRow": 580,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "minHeight": 520,
+          "minHeight": 590,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
           "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 50,
+          "snapRows": 57,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 94,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Customer Onboarding",
-    "slug": "customer-onboarding"
+    "name": "Page1",
+    "slug": "page1"
   }
 }
