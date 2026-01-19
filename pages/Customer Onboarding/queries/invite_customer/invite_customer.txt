@@ -1,7 +1,7 @@
 {{
 {
-	 p_value: "Shortlist",
-    p_customer_id: Table1.triggeredRow.id
+	 p_invite: true,
+    p_customer_id: Table9.triggeredRow.id
 }
    
 }}

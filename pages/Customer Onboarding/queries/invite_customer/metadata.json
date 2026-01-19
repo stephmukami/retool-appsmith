@@ -11,16 +11,26 @@
           "value": "application/json"
         }
       ],
-      "body": "{{\n{\n\t p_value: \"Shortlist\",\n    p_customer_id: Table1.triggeredRow.id\n}\n   \n}}",
+      "body": "{{\n{\n\t p_invite: true,\n    p_customer_id: Table9.triggeredRow.id\n}\n   \n}}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
         "apiContentType": "application/json"
       },
-      "headers": [],
+      "headers": [
+        {
+          "key": "apikey",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVvaHVkc2prd2J3dHZldHFmdnVpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDUzMDkwODQsImV4cCI6MjA2MDg4NTA4NH0.6igCpzmI9gt5M-_msxS2A2f_ZCT5Crh6ddjsk_BL3RA"
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVvaHVkc2prd2J3dHZldHFmdnVpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDUzMDkwODQsImV4cCI6MjA2MDg4NTA4NH0.6igCpzmI9gt5M-_msxS2A2f_ZCT5Crh6ddjsk_BL3RA"
+        }
+      ],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
+      "path": "/rest/v1/rpc/customer_update_invitation",
       "pluginSpecifiedTemplates": [
         {
           "value": true

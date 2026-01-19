@@ -164,7 +164,11 @@
       "key": "tableData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "primaryColumns.customColumn1.onClick"
+    }
+  ],
   "enableClientSideSearch": true,
   "endOfData": false,
   "flexVerticalAlignment": "start",
@@ -344,6 +348,7 @@
       "label": "Send Invite",
       "labelColor": "#FFFFFF",
       "notation": "standard",
+      "onClick": "{{showModal(Modal8.name);}}",
       "originalId": "customColumn1",
       "sticky": "",
       "textSize": "0.875rem",
