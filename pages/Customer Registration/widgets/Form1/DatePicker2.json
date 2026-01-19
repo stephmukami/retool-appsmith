@@ -5,7 +5,7 @@
   "bottomRow": 201,
   "boxShadow": "none",
   "closeOnSelection": true,
-  "dateFormat": "YYYY-MM-DD HH:mm",
+  "dateFormat": "YYYY-MM-DD",
   "datePickerType": "DATE_PICKER",
   "defaultDate": "2026-01-17T06:38:41.949Z",
   "dynamicBindingPathList": [
@@ -24,7 +24,7 @@
   "isRequired": false,
   "isVisible": true,
   "key": "11stuv6fvx",
-  "label": "Uber Profile",
+  "label": "Uber Profile Created On",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelTextSize": "0.875rem",
